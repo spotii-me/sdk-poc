@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.spotii-me",
+    "module": "sdk-poc",
+    "version": "0.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "sdk-poc-0.0.2.aar",
+          "url": "sdk-poc-0.0.2.aar",
+          "size": 90238,
+          "sha512": "28e65d0b1d3f2caf50d89c59849b565f63760df12bbf50898dff1ff5e7f1b32574515dd7792aa59b12d221a83dfff108a8adc0076a249a9360e8bb76bce3488b",
+          "sha256": "1d9f18043d5c1232069b1c416566813587b919855de1992f7a5d6ebab26969bf",
+          "sha1": "658fec24fe53e3463ce44935f28e6ce5ebdd5ab0",
+          "md5": "29da442fd8acdb670a57d592029e74a9"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.facebook.react",
+          "module": "react-android",
+          "version": {
+            "requires": "0.71.3"
+          }
+        },
+        {
+          "group": "androidx.swiperefreshlayout",
+          "module": "swiperefreshlayout",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.webkit",
+          "module": "android-jsc",
+          "version": {
+            "requires": "r174650"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-poc-0.0.2.aar",
+          "url": "sdk-poc-0.0.2.aar",
+          "size": 90238,
+          "sha512": "28e65d0b1d3f2caf50d89c59849b565f63760df12bbf50898dff1ff5e7f1b32574515dd7792aa59b12d221a83dfff108a8adc0076a249a9360e8bb76bce3488b",
+          "sha256": "1d9f18043d5c1232069b1c416566813587b919855de1992f7a5d6ebab26969bf",
+          "sha1": "658fec24fe53e3463ce44935f28e6ce5ebdd5ab0",
+          "md5": "29da442fd8acdb670a57d592029e74a9"
+        }
+      ]
+    }
+  ]
+}

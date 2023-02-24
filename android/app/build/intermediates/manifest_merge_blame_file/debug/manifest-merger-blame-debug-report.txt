@@ -1,0 +1,57 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.baresdk" >
+5
+6    <uses-sdk android:minSdkVersion="21" />
+7
+8    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+8-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/debug/AndroidManifest.xml:5:5-77
+8-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/debug/AndroidManifest.xml:5:22-75
+9    <uses-permission android:name="android.permission.INTERNET" />
+9-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:3:5-67
+9-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:3:22-64
+10
+11    <application
+11-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:5:5-21:19
+12        android:name="com.baresdk.MainApplication"
+12-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:6:7-38
+13        android:icon="@mipmap/ic_launcher"
+13-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:8:7-41
+14        android:label="@string/app_name"
+14-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:7:7-39
+15        android:roundIcon="@mipmap/ic_launcher_round"
+15-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:9:7-52
+16        android:usesCleartextTraffic="true"
+16-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/debug/AndroidManifest.xml:8:9-44
+17        tools:ignore="GoogleAppIndexingWarning"
+17-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/debug/AndroidManifest.xml:10:9-48
+18        tools:targetApi="28" >
+18-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/debug/AndroidManifest.xml:9:9-29
+19        <activity
+19-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/debug/AndroidManifest.xml:11:9-111
+20            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+20-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/debug/AndroidManifest.xml:11:19-83
+21            android:exported="false" />
+21-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/debug/AndroidManifest.xml:11:84-108
+22        <activity
+22-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:10:7-20:18
+23            android:name="com.baresdk.MainActivity"
+23-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:11:9-37
+24            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+24-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:12:9-118
+25            android:exported="true"
+25-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:15:9-32
+26            android:launchMode="singleTask"
+26-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:13:9-40
+27            android:windowSoftInputMode="adjustResize" >
+27-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:14:9-51
+28
+29            <!-- <intent-filter> -->
+30            <!-- <action android:name="android.intent.action.MAIN" /> -->
+31            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+32            <!-- </intent-filter> -->
+33        </activity>
+34    </application>
+35
+36</manifest>

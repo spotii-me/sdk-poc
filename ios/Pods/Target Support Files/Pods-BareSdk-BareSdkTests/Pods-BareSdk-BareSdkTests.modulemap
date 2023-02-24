@@ -1,0 +1,6 @@
+module Pods_BareSdk_BareSdkTests {
+  umbrella header "Pods-BareSdk-BareSdkTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
