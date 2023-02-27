@@ -10,7 +10,7 @@
 7-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:3:22-64
 8
 9    <application
-9-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:5:5-21:19
+9-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:5:5-22:19
 10        android:name="com.baresdk.MainApplication"
 10-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:6:7-38
 11        android:icon="@mipmap/ic_launcher"
@@ -20,23 +20,25 @@
 13        android:roundIcon="@mipmap/ic_launcher_round" >
 13-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:9:7-52
 14        <activity
-14-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:10:7-20:18
+14-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:10:7-21:18
 15            android:name="com.baresdk.MainActivity"
 15-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:11:9-37
 16            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
 16-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:12:9-118
 17            android:exported="true"
-17-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:15:9-32
+17-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:16:9-32
 18            android:launchMode="singleTask"
 18-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:13:9-40
-19            android:windowSoftInputMode="adjustResize" >
-19-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:14:9-51
-20
-21            <!-- <intent-filter> -->
-22            <!-- <action android:name="android.intent.action.MAIN" /> -->
-23            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-24            <!-- </intent-filter> -->
-25        </activity>
-26    </application>
-27
-28</manifest>
+19            android:usesCleartextTraffic="true"
+19-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:14:11-46
+20            android:windowSoftInputMode="adjustResize" >
+20-->/Users/vishalmadhavadas/Documents/Spotii/sdk-poc/android/app/src/main/AndroidManifest.xml:15:9-51
+21
+22            <!-- <intent-filter> -->
+23            <!-- <action android:name="android.intent.action.MAIN" /> -->
+24            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+25            <!-- </intent-filter> -->
+26        </activity>
+27    </application>
+28
+29</manifest>

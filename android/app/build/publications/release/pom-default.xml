@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.spotii-me</groupId>
   <artifactId>sdk-poc</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.7</version>
   <packaging>aar</packaging>
   <name>sdk-poc</name>
   <description>Test Spotii SDK</description>
@@ -46,9 +46,9 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>org.webkit</groupId>
-      <artifactId>android-jsc</artifactId>
-      <version>r174650</version>
+      <groupId>com.facebook.react</groupId>
+      <artifactId>hermes-android</artifactId>
+      <version>0.71.3</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>

@@ -172,7 +172,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.fresco:imagepipeline-okhttp3:2.5.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.fresco:ui-common:2.6.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.soloader:soloader:0.10.4@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.webkit:android-jsc:r174650@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.react:hermes-android:0.71.3@aar" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="BareSdk.app.main" />
 </module>

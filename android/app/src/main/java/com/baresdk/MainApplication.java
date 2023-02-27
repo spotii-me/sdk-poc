@@ -46,7 +46,7 @@ public class MainApplication extends Application implements ReactApplication {
         @Override
         protected Boolean isHermesEnabled() {
             // hermesEnabled value set in gradle.properties
-            return false;
+            return true;
         }
       };
 
@@ -60,7 +60,7 @@ public class MainApplication extends Application implements ReactApplication {
     super.onCreate();
     SoLoader.init(this, /* native exopackage */ false);
   // If you opted-in for the New Architecture, we load the native entry point for this app.
-  DefaultNewArchitectureEntryPoint.load();
+//  DefaultNewArchitectureEntryPoint.load();
     ReactNativeFlipper.initializeFlipper(this, getReactNativeHost().getReactInstanceManager());
 
   }
