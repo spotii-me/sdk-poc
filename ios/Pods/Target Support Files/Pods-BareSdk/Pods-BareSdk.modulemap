@@ -1,6 +1,0 @@
-module Pods_BareSdk {
-  umbrella header "Pods-BareSdk-umbrella.h"
-
-  export *
-  module * { export * }
-}
